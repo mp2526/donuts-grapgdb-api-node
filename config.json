@@ -1,0 +1,12 @@
+{
+	"name": "Donuts API Server",
+	"gitHash": "$GITHASH$",
+	"request" : {
+		"url": "http://mikeperry.com",
+		"port": 9001
+	},
+	"gremlin" : {
+		"host": "192.168.99.100",
+		"port": 8182
+	}
+}

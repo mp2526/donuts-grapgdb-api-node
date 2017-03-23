@@ -1,0 +1,31 @@
+{
+  "name": "donuts-api-node",
+  "version": "0.0.1",
+  "description": "Donuts RESTful API",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Perry <mike@seedlabs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "gremlin": "^2.3.2",
+    "nconf": "^0.8.4",
+    "node-uuid": "^1.4.7",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-git": "^1.7.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.1.5",
+    "source-map-support": "^0.4.0"
+  }
+}
